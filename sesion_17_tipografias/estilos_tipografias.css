@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.barra {
+    background-color: #333;
+    padding: 10px 0;
+    margin-bottom: 2%;
+  }
+  
+  .barra ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .barra li {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .barra i {
+    margin-right: 5px;
+  }
+
+.cajas {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.fila {
+    display: flex;
+    flex: 1;
+    margin-bottom: 20px;
+}
+.contenido1 {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Alegreya Sans", sans-serif;
+}
+.contenido2 {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Turret Road", sans-serif;
+}
+.contenido3 {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Almendra", serif;
+}
+.contenido4 {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Sunflower", sans-serif;
+}
+.contenido5 {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Sulphur Point", sans-serif;
+}
+.contenido6 {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Charis SIL", serif;
+}
+.contenido7 {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inria Serif", serif;
+}
+.contenido8 {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Kanit", sans-serif;
+}
+.contenido9 {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Passion One", sans-serif;
+}
