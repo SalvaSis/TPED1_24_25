@@ -1,0 +1,36 @@
+div {
+    box-sizing: border-box; 
+}
+#arriba {
+    background-color: aqua;
+    height: 10vh;
+}   
+#arriba_vacio {
+    height: 10vh;
+} 
+#derecha {
+    background-color: blueviolet;
+    height: 100vh;
+}    
+#izquierda {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}  
+#derecha_2{
+    background-color: coral;
+    height: 80vh;
+}
+#izquierda_2{
+    background-color: deeppink;
+    height: 80vh;
+}
+#pie {
+    background-color: greenyellow;
+    height: 10vh;
+}
+#pie_vacio {
+    height: 10vh;
+} 
+@media (min-width: 768px) {
+    
+}        
