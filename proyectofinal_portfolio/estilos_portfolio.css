@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carrusel img {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+.muestras {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.proyecto {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.proyecto img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.proyecto-info {
+    flex: 1;
+}
+#sobre-mi {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+#sobre-mi img {
+    width: 300px;
+    height: auto;
+}
+
+#sobre-mi p {
+    flex: 1;
+}
+
+.video-carrusel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.video-carrusel iframe {
+   flex-shrink: 0;
+   width: calc(33.333% - 10px);
+   height: 250px;
+   margin-right: 10px;
+}
+
+.contacto-container {
+   display: flex; 
+   flex-direction: column; 
+   align-items: center; 
+   gap: 30px; 
+}
+
+.contacto-info {
+   width: 100%; 
+   max-width: 800px; 
+   background-color: #f9f9f9; 
+   padding: 30px; 
+   border-radius: 10px; 
+}
+
+.contacto-detalles {
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center; 
+   flex-wrap: nowrap; 
+   margin-bottom: 20px; 
+}
+
+.contacto-item {
+   display: flex; 
+   align-items: center; 
+   white-space: nowrap; 
+}
+
+.contacto-item i {
+   margin-right: 10px; 
+   color:#4a4a4a; 
+}
+
+.redes-sociales { text-align:center;}
+
+.iconos-redes { display:flex; justify-content:center; gap :20px;}
+
+.iconos-redes a { color:#4a4a4a;font-size :24px ;transition :color .3s ease;}
+
+.iconos-redes a:hover { color:#007bff;}
+
+footer { background-color:#4a4a4a;color:#fff;text-align:center;padding :10px 0;}
+
+@media (max-width :768px) {
+   .proyecto,.proyecto:nth-child(even) {flex-direction :column;}
+   
+   #sobre-mi {flex-direction :column;}
+   
+   #sobre-mi img {width :100%;}
+   
+   .video-carousel iframe {width :calc(50% -10px);}
+   
+}
+@media (max-width :480px) { .video-carousel iframe {width :100%;}
+}
