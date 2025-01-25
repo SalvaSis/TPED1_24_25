@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html>
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Salva</title>
+    <link rel="icon" type="Logo" href="img/logo-02.jpg">
     <link rel="stylesheet" href="estilos_portfolio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@300;400;600&family=Satoshi:wght@300;400;700&family=Cabinet+Grotesk:wght@300;400;700&display=swap"
+        rel="estilos_portfolio.css">
 </head>
 
 <body>
@@ -14,8 +17,9 @@
         <nav>
             <ul>
                 <li><a href="#inicio">Inici</a></li>
-                <li><a href="#proyectos">Projectes</a></li>
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Projectes</a></li>
+                <li><a href="#galeria">Galería</a></li>
                 <li><a href="#videos">Videos</a></li>
                 <li><a href="#contacto">Contacte</a></li>
             </ul>
@@ -24,54 +28,60 @@
 
     <main>
         <section id="inicio">
-            <h1>SALVA SISCAR PINTO</h1>
-            <div class="carrusel">
-                <img src="img/postals FIFI.jpg" alt="Postals">
-                <img src="img/cartell 9 oct.jpg" alt="9Octubre">
-                <img src="img/camiseta naranca2.JPG" alt="Naranca">
+            <div class="logo-container">
+                <img src="img/logo-02.jpg" alt="Logo S6.Design" class="logo-principal">
             </div>
         </section>
-
+        <section id="sobre-mi">
+            <img src="img/sobre mí.jpg" alt="sobre-mi">
+            <h2>SOBRE MÍ</h2>
+            <p>Hola, com va? Soc Salva, un estudiant de disseny en l'EASDA (Escola d'Art i Superior de Disseny
+                d'Alacant) i futur dissenyador. El meu estil es caracteritza per l'ús del fotomuntatge i tipografies,
+                encara que vaig adaptant-me a les noves corrents de disseny que van sorgint i m'agrada innovar i provar
+                tècniques noves en els meus dissenys per poder aconseguir acabats distintius en les meues creacions.
+                Totes les meues creacions en digital es fan amb Illustrator, Photoshop i InDesign. A més a més, tinc
+                domini amb l'audiovisual i amb programes com Premiere i After Effects.</p>
+        </section>
         <section id="proyectos">
-            <h2>Els meus Projectes</h2>
-            <div class="muestras">
-                <div class="proyecto">
-                    <img src="img/Proposta cartell sons d'hivern 5.jpg" alt="Cartelleria">
-                    <div class="proyecto-info">
+            <h1>ELS MEUS PROJECTES</h1>
+            <div class="carrusel">
+                <div class="carrusel-item">
+                    <img src="img/postals FIFI.jpg" alt="Postals">
+                    <div class="carrusel-text">
                         <h3>Cartellería</h3>
                         <p>Una de les meues modalitats del disseny gràfic amb les que més gaudisc és el disseny de
                             pòsters i cartelleria (sobretot del món de la música) on intente donar-li un toc
                             reivindicatiu a cada creació.</p>
                     </div>
                 </div>
-                <div class="proyecto">
-                    <img src="img/IMG_9788.jpg" alt="Textil">
-                    <div class="proyecto-info">
+                <div class="carrusel-item">
+                    <img src="img/portada koda_Mesa de trabajo 1.jpg" alt="Koda">
+                    <div class="carrusel-text">
+                        <h3>Disseny editorial</h3>
+                        <p>Vaig fer el pas a l'editorial amb la creació de "KODA", una proposta de la meua pròpia
+                            revista de música Indie.</p>
+                    </div>
+                </div>
+                <div class="carrusel-item">
+                    <img src="img/camiseta naranca2.JPG" alt="Naranca">
+                    <div class="carrusel-text">
                         <h3>Disseny tèxtil</h3>
                         <p>El disseny de samarretes és un camp en el qual he començat per compte propi, però amb el que
                             he anat formant-me acadèmicament i he anat introduint tècniques diverses com la serigrafia o
                             el vinilat.</p>
                     </div>
                 </div>
-                <div class="proyecto">
-                    <img src="img/portada koda_Mesa de trabajo 1.jpg" alt="Editorial">
-                    <div class="proyecto-info">
-                        <h3>Disseny editorial</h3>
-                        <p>Vaig fer el pas a l'editorial amb la creació de "KODA", una proposta de la meua pròpia
-                            revista de música Indie.</p>
-                    </div>
-                </div>
-                <div class="proyecto">
+                <div class="carrusel-item">
                     <img src="img/foto blat.jpg" alt="Fotografia">
-                    <div class="proyecto-info">
+                    <div class="carrusel-text">
                         <h3>Fotografía</h3>
                         <p>Tinc coneixements i experiència amb la fotografia i he pogut treballar amb la banda de rock
                             "Blat" com a fotògraf.</p>
                     </div>
                 </div>
-                <div class="proyecto">
-                    <img src="img/mar-k-07.jpg" alt="Identidat">
-                    <div class="proyecto-info">
+                <div class="carrusel-item">
+                    <img src="img/brand panels.jpg" alt="Identitat-Visual">
+                    <div class="carrusel-text">
                         <h3>Identitat Visual</h3>
                         <p>La creació d'identitats corporatives i logotipus també forma part de la meua feina com a
                             dissenyador reflectint els valors i els principis de les corporacions en un disseny
@@ -80,20 +90,83 @@
                 </div>
             </div>
         </section>
+        <section id="galeria" class="galeria">
+            <h2>GALERÍA</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="img/ara no callem final.jpg" alt="Cartell Smoking">
+                    <p>Cartell Smoking Souls</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/brand panels.jpg" alt="marca Mercado">
+                    <p>Identidat visual Mercat Central Alacant</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/camiseta naranca2.JPG" alt="Samarreta Naranca">
+                    <p>Samarreta Nranca</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/cartel nike 2 final textura.jpg" alt="Cartell Nike">
+                    <p>Cartell Nike</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/cartell 9 oct.jpg" alt="Cartell 9oct">
+                    <p>Cratell 9/10</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/CARTELL_Festivern Final.jpg" alt="Cartell festivern">
+                    <p>Cartell Festivern 23/24</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/extensores automáticos cartell.jpg" alt="Cartell EA">
+                    <p>Cartell Extensores Automáticos</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/FILLES DE LES MALES HERBES 2-01.jpg" alt="Cartell Zoo">
+                    <p>Cartell Zoo</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/foto blat.jpg" alt="Foto Blat">
+                    <p>Foto Blat</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/LA FUMIGA plàstic.jpg" alt="Cartell Fumi">
+                    <p>Cartell Fúmiga</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/mockup camiseta madrid.png" alt="Samarreta Paelles">
+                    <p>Samarreta Foc o Fugirem</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/IMG_9788.jpg" alt="Samarreta GS">
+                    <p>Samarreta Gossa Sorda</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/portada koda_Mesa de trabajo 1.jpg" alt="KODA">
+                    <p>KODA</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/postals FIFI.jpg" alt="Postals">
+                    <p>Cartell Pep de la Tona</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/Proposta cartell sons d'hivern 5.jpg" alt="Sons Hivern">
+                    <p>Cartell Sons d'Hivern</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/rm423-b21-google-mockup-01.jpg" alt="Samarreta F1">
+                    <p>Samarreta Fernando Alonso</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="img/smoking souls.jpg" alt="Cartell SM">
+                    <p>Cartell Smoking Souls</p>
+                </div>
 
-        <section id="sobre-mi">
-            <h2>Sobre Mí</h2>
-            <img src="img/sobre mí.jpg" alt="sobre-mi">
-            <p>Hola, com va? Soc Salva, un estudiant de disseny en l'EASDA (Escola d'Art i Superior de Disseny
-                d'Alacant) i futur dissenyador. El meu estil es caracteritza per l'ús del fotomuntatge i tipografies,
-                encara que vaig adaptant-me a les noves corrents de disseny que van sorgint i m'agrada innovar i provar
-                tècniques noves en els meus dissenys per poder aconseguir acabats distintius en les meues creacions.
-                Totes les meues creacions en digital es fan amb Illustrator, Photoshop i InDesign. A més a més, tinc
-                domini amb l'audiovisual i amb programes com Premiere i After Effects.</p>
+            </div>
         </section>
 
         <section id="videos">
-            <h2>Més que veure</h2>
+            <h2>MÉS QUE VEURE</h2>
             <div class="video-carrusel">
                 <iframe src="img/la naranca.mp4" frameborder="0" allowfullscreen></iframe>
                 <iframe src="img/SalvaSiscarPinto_Collage animado.mp4" frameborder="0" allowfullscreen></iframe>
@@ -101,14 +174,14 @@
             </div>
         </section>
         <section id="contacto">
-            <h2>Contacta'm</h2>
+            <h2>CONTACTA'M</h2>
             <div class="contacto-container">
                 <div class="contacto-info">
                     <h3>Informació de Contacte</h3>
                     <div class="contacto-detalles">
                         <div class="contacto-item">
                             <i class="fas fa-envelope"></i>
-                            <span>salvasiscar@gmail.com</span>
+                            <span>s6design@gmail.com</span>
                         </div>
                         <div class="contacto-item">
                             <i class="fas fa-phone"></i>
@@ -122,7 +195,8 @@
                     <div class="redes-sociales">
                         <h3>Xarxes Socials</h3>
                         <div class="iconos-redes">
-                            <a href="https://www.instagram.com/s6.design/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/s6.design/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
                             <a href="#" target="_blank"><i class="fab fa-behance"></i></a>
                             <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </div>
